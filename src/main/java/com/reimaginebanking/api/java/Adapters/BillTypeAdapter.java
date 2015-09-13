@@ -4,7 +4,7 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import com.reimaginebanking.api.java.Constants.BillStatus;
-import com.reimaginebanking.api.java.Models.Bill;
+import com.reimaginebanking.api.java.models.Bill;
 
 import java.io.IOException;
 

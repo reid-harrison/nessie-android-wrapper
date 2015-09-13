@@ -1,7 +1,7 @@
-package com.reimaginebanking.api.java.Requests;
+package com.reimaginebanking.api.java.requests;
 
-import com.reimaginebanking.api.java.Models.*;
-import com.reimaginebanking.api.java.Models.Transfer;
+import com.reimaginebanking.api.java.models.*;
+import com.reimaginebanking.api.java.models.Transfer;
 
 import java.util.List;
 

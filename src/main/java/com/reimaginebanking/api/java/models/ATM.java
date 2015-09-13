@@ -1,4 +1,4 @@
-package com.reimaginebanking.api.java.Models;
+package com.reimaginebanking.api.java.models;
 
 import java.util.List;
 

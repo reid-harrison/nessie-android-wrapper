@@ -1,4 +1,4 @@
-package com.reimaginebanking.api.java.Models;
+package com.reimaginebanking.api.java.models;
 
 import com.reimaginebanking.api.java.Constants.BillStatus;
 

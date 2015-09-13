@@ -6,7 +6,10 @@ import com.reimaginebanking.api.java.Adapters.BillTypeAdapter;
 import com.reimaginebanking.api.java.Constants.AccountType;
 import com.reimaginebanking.api.java.Constants.BillStatus;
 import com.reimaginebanking.api.java.Constants.TransactionMedium;
-import com.reimaginebanking.api.java.Models.*;
+import com.reimaginebanking.api.java.models.*;
+import com.reimaginebanking.api.java.models.Account;
+import com.reimaginebanking.api.java.models.Customer;
+import com.reimaginebanking.api.java.models.RequestResponse;
 
 import java.io.IOException;
 import java.lang.reflect.Type;

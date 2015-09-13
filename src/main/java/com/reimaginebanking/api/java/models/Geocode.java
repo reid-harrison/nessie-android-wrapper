@@ -1,4 +1,4 @@
-package com.reimaginebanking.api.java.Models;
+package com.reimaginebanking.api.java.models;
 
 /**
  * Created by kco942 on 4/9/15.

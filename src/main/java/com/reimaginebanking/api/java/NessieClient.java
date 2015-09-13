@@ -4,9 +4,9 @@ package com.reimaginebanking.api.java;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.reimaginebanking.api.java.Adapters.BillTypeAdapter;
-import com.reimaginebanking.api.java.Models.*;
-import com.reimaginebanking.api.java.Models.Transfer;
-import com.reimaginebanking.api.java.Requests.NessieService;
+import com.reimaginebanking.api.java.models.*;
+import com.reimaginebanking.api.java.models.Transfer;
+import com.reimaginebanking.api.java.requests.NessieService;
 
 import java.util.List;
 
