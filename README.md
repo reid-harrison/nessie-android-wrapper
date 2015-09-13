@@ -5,7 +5,7 @@ Can be easily embeddded in both java apps and android apps. Uses Retrofit to mak
 ##Installation for Java App
 Download the jar file and add to module as a library.
 ##Installation for Android
-1. Download the jar file.
+1. [Download the jar file.](dist/nessie-android-wrapper-1.0.jar)
 2. Check to see if there is a libs directory in the app directory of your Android project. If there is no libs directory, create one within the app directory. If there is already one there, this is where you will add the jar file to.
 3. Place the jar file in the libs directory.
 4. Right click the jar file and click "add as library"

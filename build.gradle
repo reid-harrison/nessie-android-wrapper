@@ -13,3 +13,15 @@ dependencies {
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.squareup.okhttp:okhttp:2.4.0-RC1'
 }
+
+// Renames and copies the built wrapper JAR into a distribution directory
+task copyJar(type: Copy, dependsOn: jar) {
+    def libsDir = new File(buildDir, 'libs')
+    from (libsDir) {
+        rename 'java-wrapper-(.*)', 'nessie-android-wrapper-$1'
+    }
+    into "dist"
+}
+
+// Run the copyJar task after the jar task completes
+tasks.jar.finalizedBy(copyJar)
