@@ -122,6 +122,9 @@ public interface NessieService {
     @GET("/merchants")
     void getMerchants(@Query("key") String key, Callback<List<Merchant>> cb);
 
+    @GET("/merchants")
+    void getMerchants(@Query("key") String key, @Query("lat") String lat, @Query("lng") String lng, @Query("rad") String rad, Callback<List<Merchant>> cb);
+
     @GET("/merchants/{id}")
     void getMerchant(@Query("key") String key, @Path("id") String merchantId, Callback<Merchant> cb);
 

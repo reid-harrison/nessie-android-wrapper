@@ -410,6 +410,21 @@ public class NessieClient {
         });
     }
 
+    public void getMerchants(String lat, String lng, String rad, final NessieResultsListener mlistener){
+        service.getMerchants(this.key, lat, lng, rad, new Callback<List<Merchant>>() {
+            @Override
+            public void success(List<Merchant> merchants, Response response) {
+                mlistener.onSuccess(merchants, null);
+            }
+
+            @Override
+            public void failure(RetrofitError error) {
+                mlistener.onSuccess(null, new NessieException(error));
+            }
+        });
+    }
+
+
     public void getMerchant(String merchantId, final NessieResultsListener mlistener){
         service.getMerchant(this.key, merchantId, new Callback<Merchant>() {
             @Override
